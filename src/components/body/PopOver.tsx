@@ -6,7 +6,6 @@ import {
     ModalContent,
     ModalHeader,
     ModalBody,
-    ModalCloseButton,
     Link,
     Flex,
     Box,
@@ -14,6 +13,7 @@ import {
   } from "@chakra-ui/react"
 import {FaArrowCircleRight} from 'react-icons/fa'
 import {BsArrowLeft} from 'react-icons/bs'
+import { VideoPlayer } from '../video-player/VideoPlayer'
 
 
 interface dataObject{
@@ -42,16 +42,18 @@ export const PopOver = (props: Props) => {
             <ModalHeader>
                 <Button _focus={{outline:"none"}} color="accent" onClick={props.onClose} variant="link"><BsArrowLeft/> Back</Button> <br/>
                 {props.data?.title}</ModalHeader>
-            <ModalCloseButton />
             <ModalBody>
-                <Flex justifyContent="space-between">
-                <Box>
-                    Video uploaded by respected user : u/{props.data?.author} <br/>
-                    On the subreddit <Link color="accent" href="https://chakra-ui.com" isExternal>r/apexlegends</Link>.
-                </Box>
-                <Link style={{textDecoration:'none'}} textDecor='none' href={props.data?.url} isExternal>
-                    <Button variant="new" _focus={{outline:"none"}}> <Text mr={2}>GO TO POST </Text> <FaArrowCircleRight/> </Button>
-                </Link>
+                <VideoPlayer url={props.data?.url}/>
+                <Flex mt={4} direction={['column','row']} justifyContent="space-between">
+                    <Box>
+                        Video uploaded by respected user : u/{props.data?.author} <br/>
+                        On the subreddit <Link color="accent" href="https://chakra-ui.com" isExternal>r/apexlegends</Link>.
+                    </Box>
+                    <Flex m={[1,2]} justifyContent="center">
+                    <Link style={{textDecoration:'none'}} textDecor='none' href={props.data?.url} isExternal>
+                        <Button p={[1,2,3]} variant="new" _focus={{outline:"none"}}> <Text fontSize={['10px','14px']} mr={[1,2]}>GO TO POST </Text> <FaArrowCircleRight/> </Button>
+                    </Link>
+                    </Flex>
                 </Flex>
             </ModalBody>
             </ModalContent>
