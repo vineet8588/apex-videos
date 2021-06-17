@@ -1,14 +1,9 @@
 import React from 'react'
-import { Logo } from '../Logo'
 import {
-    Box,
-    Text,
-    Link,
-    VStack,
-    Code,
-    Grid,
+    Box
   } from "@chakra-ui/react"
 import { Header } from './header/Header'
+import { Body } from './body/Body'
 
 
 interface Props {
@@ -16,28 +11,12 @@ interface Props {
 }
 
 const Main = (props: Props) => {
+    // return(<VideoPlayer url="https://v.redd.it/qio7391yes171"/>)
+    // return(<Button variant="new">Hello </Button>)
     return (
-        <Box>
+        <Box justifyContent="center">
             <Header/>
-            <Box mt="120px" textAlign="center" fontSize="xl">
-                <Grid minH="100vh" p={3}>
-                    <VStack spacing={8}>
-                    <Logo h="40vmin" pointerEvents="none" />
-                    <Text>
-                        Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-                    </Text>
-                    <Link
-                        color="teal.500"
-                        href="https://chakra-ui.com"
-                        fontSize="2xl"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn Chakra
-                    </Link>
-                    </VStack>
-                </Grid>
-            </Box>
+            <Body/>
         </Box>
     )
 }
