@@ -28,7 +28,6 @@ interface Props {
 }
 
 export const PopOver = (props: Props) => {
-    console.log(props.data)
     return (
         <Modal
             isCentered

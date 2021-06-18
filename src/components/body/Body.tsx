@@ -2,7 +2,7 @@ import { SimpleGrid , Box, Image, Text, useColorModeValue, useDisclosure } from 
 import React,{useEffect, useState} from 'react'
 import { PopOver } from './PopOver'
 
-const apiURL = "http://vineet8588.pythonanywhere.com/allvideos"
+const apiURL = "https://vineet8588.pythonanywhere.com/allvideos"
 
 interface Props {
     
@@ -46,7 +46,7 @@ export const Body = (props: Props) => {
                         boxShadow="md" 
                         overflow="hidden"
                         > 
-                        <Image src="/thumbnail.jpg" /> 
+                        <Image src={process.env.PUBLIC_URL+"/thumbnail.jpg"} /> 
                         <Box bg={bg} p={4}>
                             <Text noOfLines={[1, 2]}>
                                 {post.title}
