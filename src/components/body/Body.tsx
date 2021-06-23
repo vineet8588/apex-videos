@@ -69,7 +69,8 @@ export const Body = () => {
                     value={goDate} 
                     onChange={(e)=>{setgoDate(e.target.value)}} 
                     type="date"
-                    max={today}/>
+                    max={today}
+                    min="2021-05-28"/>
                 <Button 
                     onClick={()=>{
                             goDate && document.getElementById(convertDate(goDate))?.scrollIntoView({behavior:'smooth'})
