@@ -46,7 +46,7 @@ export const PopOver = (props: Props) => {
                 <Flex mt={4} direction={['column','row']} justifyContent="space-between">
                     <Box>
                         Video uploaded by respected user : u/{props.data?.author} <br/>
-                        On the subreddit <Link color="accent" href="https://chakra-ui.com" isExternal>r/apexlegends</Link>.
+                        On the subreddit <Link color="accent" href="https://www.reddit.com/r/apexlegends/" isExternal>r/apexlegends</Link>.
                     </Box>
                     <Flex m={[1,2]} justifyContent="center">
                     <Link style={{textDecoration:'none'}} textDecor='none' href={props.data?.url} isExternal>
