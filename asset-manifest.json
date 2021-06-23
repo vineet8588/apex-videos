@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/apex-videos/static/js/main.b16d971f.chunk.js",
-    "main.js.map": "/apex-videos/static/js/main.b16d971f.chunk.js.map",
+    "main.js": "/apex-videos/static/js/main.affc40cd.chunk.js",
+    "main.js.map": "/apex-videos/static/js/main.affc40cd.chunk.js.map",
     "reactPlayerDailyMotion.js": "/apex-videos/static/js/reactPlayerDailyMotion.6d86f33a.chunk.js",
     "reactPlayerDailyMotion.js.map": "/apex-videos/static/js/reactPlayerDailyMotion.6d86f33a.chunk.js.map",
     "reactPlayerFacebook.js": "/apex-videos/static/js/reactPlayerFacebook.58588bae.chunk.js",
@@ -28,19 +28,19 @@
     "reactPlayerWistia.js.map": "/apex-videos/static/js/reactPlayerWistia.302892c5.chunk.js.map",
     "reactPlayerYouTube.js": "/apex-videos/static/js/reactPlayerYouTube.a796e1e6.chunk.js",
     "reactPlayerYouTube.js.map": "/apex-videos/static/js/reactPlayerYouTube.a796e1e6.chunk.js.map",
-    "runtime-main.js": "/apex-videos/static/js/runtime-main.15776b14.js",
-    "runtime-main.js.map": "/apex-videos/static/js/runtime-main.15776b14.js.map",
-    "static/js/15.21f39837.chunk.js": "/apex-videos/static/js/15.21f39837.chunk.js",
-    "static/js/15.21f39837.chunk.js.map": "/apex-videos/static/js/15.21f39837.chunk.js.map",
-    "static/js/16.7d43e52f.chunk.js": "/apex-videos/static/js/16.7d43e52f.chunk.js",
-    "static/js/16.7d43e52f.chunk.js.map": "/apex-videos/static/js/16.7d43e52f.chunk.js.map",
+    "runtime-main.js": "/apex-videos/static/js/runtime-main.cb4fc2dc.js",
+    "runtime-main.js.map": "/apex-videos/static/js/runtime-main.cb4fc2dc.js.map",
+    "static/js/15.3ed0d5ff.chunk.js": "/apex-videos/static/js/15.3ed0d5ff.chunk.js",
+    "static/js/15.3ed0d5ff.chunk.js.map": "/apex-videos/static/js/15.3ed0d5ff.chunk.js.map",
+    "static/js/16.06d80e22.chunk.js": "/apex-videos/static/js/16.06d80e22.chunk.js",
+    "static/js/16.06d80e22.chunk.js.map": "/apex-videos/static/js/16.06d80e22.chunk.js.map",
     "index.html": "/apex-videos/index.html",
-    "static/js/15.21f39837.chunk.js.LICENSE.txt": "/apex-videos/static/js/15.21f39837.chunk.js.LICENSE.txt",
+    "static/js/15.3ed0d5ff.chunk.js.LICENSE.txt": "/apex-videos/static/js/15.3ed0d5ff.chunk.js.LICENSE.txt",
     "static/media/logo.fb65eced.svg": "/apex-videos/static/media/logo.fb65eced.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15776b14.js",
-    "static/js/15.21f39837.chunk.js",
-    "static/js/main.b16d971f.chunk.js"
+    "static/js/runtime-main.cb4fc2dc.js",
+    "static/js/15.3ed0d5ff.chunk.js",
+    "static/js/main.affc40cd.chunk.js"
   ]
 }
